@@ -43,16 +43,15 @@ speech-assist-device/
 3. Install the required Python packages:
   
    pip install -r requirements.txt
-  
+   
+4. Configure your Cerebras API key:Copy the example environment file:
 
-4. Install python-dotenv for environment variable management:
-  
-   pip install python-dotenv
- 
+   cp .env.example .env   # (On Windows use: copy .env.example .env)
 
-5. Configure your Cerebras API key:
-   - Edit the `.env` file in the backend directory
-   - Replace `your_cerebras_api_key_here` with your actual API key
+5. Open the new .env file and replace the placeholder with your actual key:
+
+   CEREBRAS_API_KEY=sk-your_real_key_here
+
 
 ### Running the Application
 
